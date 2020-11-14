@@ -1,5 +1,6 @@
 /*# sourceMappingURL=style.css.map */
-@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap");
 
 body {
   background-image: url(./media/basic-pics/gassin.jpg);
@@ -8,15 +9,15 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-
+  color: rgba(255, 255, 255, 0.966);
   min-height: 100vh;
   margin: 0;
+  font-family: "Balsamiq Sans", cursive;
 }
 h1 {
   font-weight: normal;
-  font-size: 5rem;
-  margin-top: 2rem;
-  font-family: "Luckiest Guy", cursive;
+  font-size: 10rem;
+  margin-top: 10rem;
 }
 
 .countown-container {
@@ -26,7 +27,7 @@ h1 {
 
 .big-text {
   font-weight: bold;
-  font-size: 3rem;
+  font-size: 10rem;
   line-height: 1;
   margin: 0 2rem;
 }
